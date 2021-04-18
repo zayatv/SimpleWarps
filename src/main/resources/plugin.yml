@@ -26,5 +26,5 @@ permissions:
     description: Allows you to use the /warp command
   simplewarps.warplist:
     description: Allows you to use the /warps command
-  simplewarps.delete:
+  simplewarps.deletewarp:
     description: Allows you to use the /delwarp command
