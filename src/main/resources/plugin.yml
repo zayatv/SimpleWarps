@@ -1,0 +1,30 @@
+name: SimpleWarps
+version: 1.0
+main: eu.zzagro.simplewarps.SimpleWarps
+author: zZagro
+
+commands:
+  setwarp:
+    description: Set a new Warp
+  warp:
+    description: Warp to a Warp
+  warplist:
+    description: See all warps
+    aliases:
+      - warps
+  deletewarp:
+    description: Delete a warp
+    aliases:
+      - delwarp
+
+permissions:
+  simplewarps.*:
+    description: Allows you to use all commands
+  simplewarps.setwarp:
+    description: Allows you to use the /setwarp command
+  simplewarps.warp:
+    description: Allows you to use the /warp command
+  simplewarps.warplist:
+    description: Allows you to use the /warps command
+  simplewarps.delete:
+    description: Allows you to use the /delwarp command
